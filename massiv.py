@@ -1,5 +1,5 @@
-from array import *
-a = [1,2,3,4,5,6,7,8,9,10]
-for x in a:
+q = int(input("Введите начальное значение:"))
+e = int(input("Введите конечное значение:"))
+for x in range(q, e):
     if x % 2 == 0:
-        print (x)
+        [print (x)]
